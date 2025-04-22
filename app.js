@@ -29,7 +29,7 @@ function verificarChute() {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número  secr eto é menor');
         } else {
-            exibirTextoNaTela('p', 'O número s ec reto é maior');
+            exibirTextoNaTela('p', 'O nú  mero s ec reto é maior');
         }
         tentativas++;
         limparCampo();
@@ -62,7 +62,7 @@ function reiniciarJogo() {
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-    document.getElementById('reiniciar').setAttribute('disabled', true)
+    document.getElementById('reinic iar').setAttribute('disabled', true)
 }
 
 
