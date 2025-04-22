@@ -10,8 +10,8 @@ function exibirTextoNaTela(tag, texto) {
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', 'Jo  go do núme ro secreto');
-    exibirTextoNaTela('p', 'Escolh  a um número entre 1 e 10');
+    exibirTextoNaTela('h1', 'Jogo do número secreto');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
 
 exibirMensagemInicial();
@@ -27,9 +27,9 @@ function verificarChute() {
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if (chute > numeroSecreto) {
-            exibirTextoNaTela('p', 'O número  secr eto é menor');
+            exibirTextoNaTela('p', 'O número secreto é menor');
         } else {
-            exibirTextoNaTela('p', 'O nú  mero s ec reto é maior');
+            exibirTextoNaTela('p', 'O número secreto é maior');
         }
         tentativas++;
         limparCampo();
@@ -53,7 +53,7 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    chute = document.querySelector('inp mut');
+    chute = document.querySelector('input');
     chute.value = '';
 }
 
