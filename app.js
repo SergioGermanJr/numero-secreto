@@ -53,7 +53,7 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    chute = document.querySelector('input');
+    chute = document.querySelector('inp mut');
     chute.value = '';
 }
 
@@ -62,7 +62,7 @@ function reiniciarJogo() {
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
-    document.getElementById('reinic iar').setAttribute('disabled', true)
+    document.getElementById('reiniciar').setAttribute('disabled', true)
 }
 
 
